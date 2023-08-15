@@ -38,7 +38,7 @@ write_PDC_to_file('your_data.csv', 'PDC_output.csv', PDC, user_medication)
 
 4. Roadmap
 
-1)Add a menu-based user interface
+1)Add a simple user interface
 
 2)Make the code less dependent on the table layout
 
