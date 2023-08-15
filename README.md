@@ -5,7 +5,7 @@ This project, initiated during my pharmacy post-graduate residency program, is a
 
 As pharmacies focus heavily on traceability, they each generate vast amounts of data. This opens up the possibility of large-scale, data-driven adherence studies. Adherence studies strive to find patterns of adherence to pharmacotherapy, which, in turn, is heavily linked to positive clinical outcomes in the literature.
 
-According to the Pharmacy Quality Alliance (2023), PDC is the preferred measure of adherence for chronic illness treatments. The definition of PDC as PDC = (Sum of days covered in time frame) ÷ (number of days in time frame) × 100 does not convey the complexity behind its calculation. As observed by Canfield et al (2019), this model considers patient prescription refill (or dispensation) dates and quantities, and tracks the number of days they were "covered" by medication in a given period, also accounting for any surplus that the patient may acquire, thus requiring automation for the calculations.
+According to the Pharmacy Quality Alliance (2023), PDC is the preferred measure of adherence for chronic illness treatments. The definition of PDC as **PDC = (Sum of days covered in time frame) ÷ (number of days in time frame) × 100** does not convey the complexity behind its calculation. As observed by Canfield et al (2019), this model considers patient prescription refill (or dispensation) dates and quantities, and tracks the number of days they were "covered" by medication in a given period, also accounting for any surplus that the patient may acquire, thus requiring automation for the calculations.
 
 The motivation for this project stems from a gap in the field; despite many authors reporting results of PDC calculation, there seems to be a lack of publicly available PDC calculators. By creating a solution that could be applied locally without relying on third-party assistance, I was able to manage the risk of data leaks, a key point for getting the approval of an Ethics Committee.
 
@@ -44,13 +44,20 @@ write_PDC_to_file('your_data.csv', 'PDC_output.csv', PDC, user_medication)
 The first version of this code and logic behind it, while I had very little experience with practical programming, was made possible by OpenAI's ChatGPT.
 
 
-4. License
+6. References
+
+  Canfield SL, Zuckerman A, Anguiano RH, Jolly JA, DeClercq J, Wascher M, Choi L, Knox S, Mitchell DG. Navigating the Wild West of Medication Adherence Reporting in Specialty Pharmacy. J Manag Care Spec Pharm. 2019 Oct;25(10):1073-1077. doi: 10.18553/jmcp.2019.25.10.1073.
+  
+  Pharmacy Quality Association. PQA Measure Overview [Internet]. 2023 Apr [cited 2023 Aug 14]. Available from: https://www.pqaalliance.org/assets/Measures/PQA_Measures_Overview.pdf
+
+
+7. License
 
    
 This project is licensed under the GNU General Public License v3.0.
 
 
-5. Contact information
+8. Contact information
 
     
 All kinds of feedback, comments or requests are always welcome!
@@ -58,7 +65,7 @@ You may reach me through the following:
 Email: swmarafigo@gmail.com // Linkedin: https://www.linkedin.com/in/swmarafigo/ // Discord: swmarafigo
 
 
-6. Changelog
+9. Changelog
 
     
 Version 0.1.0 - Initial version.
