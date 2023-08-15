@@ -2,10 +2,15 @@
 
  
 This project, initiated during my pharmacy post-graduate residency program, is an intersection between my experience in pharmacy and software development. The core objective is to use Python to calculate the pharmacotherapy adherence measure known as Proportion of Days Covered (PDC) based on dispensation dates registered in a database, specifically a CSV file.
+
 As pharmacies focus heavily on traceability, they each generate vast amounts of data. This opens up the possibility of large-scale, data-driven adherence studies. Adherence studies strive to find patterns of adherence to pharmacotherapy, which, in turn, is heavily linked to positive clinical outcomes in the literature.
+
 According to the Pharmacy Quality Alliance (2023), PDC is the preferred measure of adherence for chronic illness treatments. The definition of PDC as PDC = (Sum of days covered in time frame) ÷ (number of days in time frame) × 100 does not convey the complexity behind its calculation. As observed by Canfield et al (2019), this model considers patient prescription refill (or dispensation) dates and quantities, and tracks the number of days they were "covered" by medication in a given period, also accounting for any surplus that the patient may acquire, thus requiring automation for the calculations.
+
 The motivation for this project stems from a gap in the field; despite many authors reporting results of PDC calculation, there seems to be a lack of publicly available PDC calculators. By creating a solution that could be applied locally without relying on third-party assistance, I was able to manage the risk of data leaks, a key point for getting the approval of an Ethics Committee.
+
 Initially, I prompted ChatGPT numerous times to create the main logic behind it using the definition of PDC provided by Canfield et al (2019), and compared the calculation results to my test data, where I had calculated different scenarios by hand.
+
 While the initial code is functional, as part of my ongoing learning and portfolio building, I plan on adding new features and refactoring it to align with IT best practices, such as code modularity and extensive testing, improving on the work initially done by ChatGPT.
 
 
